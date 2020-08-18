@@ -7,5 +7,11 @@ import java.util.Map;
 
 
 public interface UserService {
-	List<User> queryUsers(Map<String, Object> param);
+    /**
+     * 试试加个tag
+     *
+     * @param param
+     * @return
+     */
+    List<User> queryUsers(Map<String, Object> param);
 }
