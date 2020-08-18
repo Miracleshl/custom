@@ -1,0 +1,5 @@
+<mapper namespace="userDao">
+    <select id="queryUserList" paramaterType="" resultType="com.miracle.po.User">
+        select * from user where username = #{username}
+    </select>
+</mapper>

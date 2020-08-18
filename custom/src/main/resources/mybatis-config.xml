@@ -1,0 +1,9 @@
+<configuration>
+    <environments default="dev">
+        <environment id="dev">
+        </environment>
+    </environments>
+    <mappers>
+        <mapper location="mapper/UserMapper.xml"/>
+    </mappers>
+</configuration>
